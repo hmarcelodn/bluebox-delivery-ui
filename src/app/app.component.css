@@ -1,0 +1,17 @@
+.bluebox-logo{
+    background: url(../../public/img/bluebox-logo.png) no-repeat;
+}
+
+.login-btn{
+    background-color: #fbc02d!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+nav a, nav ul li a {
+    color: #212121 !important;
+}
+
+nav{
+    height: 70px !important;
+    background-color: white;
+}
