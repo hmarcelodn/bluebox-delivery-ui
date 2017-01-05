@@ -1,15 +1,14 @@
-  <nav>
-    <div class="navbar-fixed">
-      <a href="#" class="brand-logo">
-        <img src="../../public/img/bluebox-logo.png"/>
-      </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Customers</a></li>
-        <li><a href="sass.html">Ordering</a></li>
-        <!--<li><a class="waves-effect waves-teal btn-flat login-btn">LOGIN</a></li>-->
-        <li><a class="waves-effect waves-teal btn-flat login-btn">LOGOUT</a></li>
-      </ul>
-    </div>
-  </nav>
+<nav>
+   <div class="navbar-fixed">
+     <a href="#" class="brand-logo">
+       <img src="../../public/img/bluebox-logo.png"/>
+     </a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li><a routerLink="/customer">Customers</a></li>
+       <li><a routerLink="/order">Ordering</a></li>
+       <li><a class="waves-effect waves-teal btn-flat login-btn">LOGOUT</a></li>
+     </ul>
+   </div>
+</nav>
 
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>

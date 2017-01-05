@@ -5,6 +5,7 @@ import { Routing } from './app.routing';
 
 import { HomeComponent } from './Home/home.component';
 import { CustomerComponent } from './Customer/customer.component';
+import { OrderComponent } from './Order/order.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { CustomerComponent } from './Customer/customer.component';
   declarations: [
     AppComponent,
     CustomerComponent,
-    HomeComponent
+    HomeComponent,
+    OrderComponent
   ],
   bootstrap: [ AppComponent ]
 })
