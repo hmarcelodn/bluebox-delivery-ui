@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
+
 import { AppComponent } from './app.component';
 import { Routing } from './app.routing';
 
@@ -10,7 +12,8 @@ import { OrderComponent } from './Order/order.component';
 @NgModule({
   imports: [
     BrowserModule,
-    Routing
+    Routing,
+    HttpModule
   ],
   declarations: [
     AppComponent,
@@ -18,7 +21,8 @@ import { OrderComponent } from './Order/order.component';
     HomeComponent,
     OrderComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ],
+  providers: []
 })
 
 export class AppModule { }
